@@ -1,0 +1,44 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "This project was created to help other people to implement Esbuild with React, Jest and HotReload.",
+  "main": "src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landersonalmeida/esbuild-with-react-jest-hotreload"
+  },
+  "keywords": [
+    "esbuild",
+    "react",
+    "jest",
+    "hot reload"
+  ],
+  "scripts": {
+    "dev": "node esbuild --serve",
+    "build": "node esbuild",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage"
+  },
+  "author": "Landersson Almeida",
+  "license": "MIT",
+  "homepage": "https://github.com/landersonalmeida/esbuild-with-react-jest-hotreload#readme",
+  "bugs": {
+    "url": "https://github.com/landersonalmeida/esbuild-with-react-jest-hotreload/issues"
+  },
+  "dependencies": {
+    "esbuild": "^0.16.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "esbuild-jest": "^0.5.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1"
+  }
+}
